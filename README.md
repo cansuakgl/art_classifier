@@ -1,7 +1,7 @@
 ﻿# Art Classifier
 
 Image classification model that identifies artworks by 50 famous artists using EfficientNet.
-gradient link: https://d511888b1881008744.gradio.live/
+
 
 ## Dataset
 
@@ -38,4 +38,5 @@ python serve.py
 └── requirements.txt
 ```
 # deep_learning_private
+
 
