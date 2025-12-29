@@ -46,8 +46,6 @@ def load_dataset(dataset_path=None):
     if not os.path.exists(dataset_path):
         raise FileNotFoundError(
             f"Dataset not found at {dataset_path}. "
-            "Download from https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time "
-            "and extract to the data/ folder."
         )
     
     image_paths = []

@@ -61,10 +61,8 @@ demo = gr.Interface(
     outputs=gr.Label(num_top_classes=5, label="Artist Predictions"),
     title="🎨 Art Style Classifier",
     description="Upload an artwork to predict which famous artist created it.",
-    examples=[],
-    allow_flagging="never",
-    theme=gr.themes.Soft()
+    examples=[]
 )
 
 if __name__ == "__main__":
-    demo.launch(share=False)
+    demo.launch(share=True, theme=gr.themes.Soft())
